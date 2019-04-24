@@ -14,5 +14,6 @@ RUN   apk update && \
       apk add --no-cache \
       openssh
 
+COPY config /config
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
