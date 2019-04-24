@@ -18,5 +18,6 @@ chmod 600 "$SSH_PATH/id_rsa.pub"
 eval $(ssh-agent)
 ssh-add "$SSH_PATH/id_rsa"
 ssh-keyscan -H github.com > /etc/ssh/ssh_known_hosts
+ssh-keyscan -H github.com > "$SSH_PATH/known_hosts"
 
 exit 0
