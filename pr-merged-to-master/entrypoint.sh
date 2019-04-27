@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-if [ "$GITHUB_EVENT_NAME" != "pull_request"]; then
+if [[ "$GITHUB_EVENT_NAME" != "pull_request"]]; then
     #action only compatible with pull_request event
     exit 1
 fi
