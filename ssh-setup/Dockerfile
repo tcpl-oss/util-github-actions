@@ -8,7 +8,7 @@ LABEL "com.github.actions.color"="purple"
 
 LABEL "repository"="https://github.com/tcpl-oss/util-github-actions"
 LABEL "homepage"="http://github.com/tcpl-oss/util-github-actions"
-LABEL "maintainer"="tcpl"
+LABEL "maintainer"="Tcpl"
 
 RUN   apk update && \
       apk add --no-cache \
