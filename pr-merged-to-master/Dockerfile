@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Workaround for PR branch deletion (not m
 LABEL "com.github.actions.icon"="filter"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL "repository"="https://github.com/hashicorp/terraform-github-actions"
+LABEL "repository"="https://github.com/tcpl-oss/terraform-github-actions"
 LABEL "homepage"="http://github.com/hashicorp/terraform-github-actions"
 LABEL "maintainer"="HashiCorp Terraform Team <terraform@hashicorp.com>"
 
