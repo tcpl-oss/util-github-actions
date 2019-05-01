@@ -1,8 +1,9 @@
 #!/bin/sh
 set -e
-
+echo "checking for PR merge to master..."
 if [[ "$GITHUB_EVENT_NAME" != "pull_request" ]]; then
     #action only compatible with pull_request event
+    echo "This actions should only be used on a pull_request GHA workflow..."
     exit 1
 fi
 
